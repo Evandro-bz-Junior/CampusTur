@@ -719,14 +719,20 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: -10px;
-        padding: 0 50px;
+        margin: 40px 0;
+        padding: 20px 50px;
         /* gap: 30px; */
         justify-content: space-evenly;
     }
 
-    .home-img {
-        margin-top: -30px;
+    .left-side { 
+        gap: 10px;
+    }
+
+    .right-side .home-img {
+        width: 400px;
+        height: 400px;
+        margin-top: 20px;
     }
 
     .About-city {
@@ -742,12 +748,16 @@ main {
         align-items: center;
     }
 
+     
+.About-city .About-city-img {
+    border-radius: 10px;
+}
+
     .about-city.another-imgs {
         display: flex;
         flex-direction: column;
         gap: 30px;
-        /* margin-top: 40px; */
-        height: 100vh;
+        /* margin-top: 40px; */ 
     }
 
     .about-us {
@@ -954,8 +964,8 @@ main {
         top: 60px;
         left: 0;
         width: 100%;
-        backdrop-filter: blur(24px);
-        background-color: #00552c92;
+        backdrop-filter: blur(48px);
+        background-color: #00552cad;
         z-index: 10;
         display: none;
     }
@@ -972,6 +982,9 @@ main {
     .nav-links.active {
         display: flex;
         height: 100vh;
+    }
+    .no-scroll {
+        overflow: hidden;
     }
 
 
@@ -1017,6 +1030,8 @@ main {
     .About-city .About-city-img {
         width: 300px;
         height: 300px;
+        border-radius: 10px !important;
+
     }
 
     .about-city.another-imgs {
