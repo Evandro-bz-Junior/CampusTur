@@ -92,7 +92,7 @@ html {
     width: 470px;
     height: 470px;
     border-radius: 150px 0 150px 0;
-    background-image: url('/assets/imgs/home-img.jpg');
+    background-image: url('../imgs/home-img.jpg');
     background-position: 80% center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,7 +162,7 @@ html {
     width: 370px;
     height: 370px;
     border-radius: 0 150px 0 150px;
-    background-image: url('/assets/imgs/About-city-img.jpg');
+    background-image: url('../imgs/About-city-img.jpg');
     background-position: 80% center;
     background-repeat: no-repeat;
     background-size: cover;
