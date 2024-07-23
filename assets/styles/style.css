@@ -968,6 +968,7 @@ main {
         background-color: #00552cad;
         z-index: 10;
         display: none;
+        margin-top: 20px;
     }
 
     .nav-links ul{
