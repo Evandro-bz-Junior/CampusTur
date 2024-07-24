@@ -965,7 +965,7 @@ main {
         left: 0;
         width: 100%;
         backdrop-filter: blur(48px);
-        background-color: #00552cd9;
+        background-color: #00552cdb;
         z-index: 10;
         display: none;
         margin-top: 20px;
