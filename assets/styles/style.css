@@ -12,12 +12,12 @@
 html {
     scroll-behavior: smooth;
 }
- 
+
 
 .navbar {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     background: linear-gradient(180deg, #00B960 0%, #00552C 100%);
     padding: 0 80px;
     height: 80px;
@@ -29,7 +29,7 @@ html {
     font-weight: bold;
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
@@ -51,10 +51,10 @@ html {
 }
 
 
-.navbar a:hover  {
+.navbar a:hover {
     color: #DDC500 !important;
 }
- 
+
 
 .nav-link {
     position: relative;
@@ -700,12 +700,12 @@ main {
         font-size: 1rem !important;
         margin-left: 0 !important;
     }
-   
-    .nav-links ul{
+
+    .nav-links ul {
         padding: 0;
     }
 
-    .nav-links a{
+    .nav-links a {
         font-size: 0.9rem;
     }
 
@@ -725,7 +725,7 @@ main {
         justify-content: space-evenly;
     }
 
-    .left-side { 
+    .left-side {
         gap: 10px;
     }
 
@@ -748,16 +748,16 @@ main {
         align-items: center;
     }
 
-     
-.About-city .About-city-img {
-    border-radius: 10px;
-}
+
+    .About-city .About-city-img {
+        border-radius: 10px;
+    }
 
     .about-city.another-imgs {
         display: flex;
         flex-direction: column;
         gap: 30px;
-        /* margin-top: 40px; */ 
+        /* margin-top: 40px; */
     }
 
     .about-us {
@@ -965,25 +965,27 @@ main {
         left: 0;
         width: 100%;
         backdrop-filter: blur(48px);
-        background-color: #00552cad;
+        background-color: #00552cd9;
         z-index: 10;
         display: none;
         margin-top: 20px;
     }
 
-    .nav-links ul{
+    .nav-links ul {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 35px;
-        margin-top: 30px;
+        margin-top: 50px;
+        padding: 0 !important;
     }
 
-    
+
     .nav-links.active {
         display: flex;
         height: 100vh;
     }
+
     .no-scroll {
         overflow: hidden;
     }
