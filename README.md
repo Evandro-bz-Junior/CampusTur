@@ -24,28 +24,30 @@ O projeto tem como objetivo praticar desenvolvimento web e explorar boas prátic
 
 ## 📁 Estrutura do projeto
 
+CampusTur/
 ├── assets/
-│ ├── imgs/ # imagens do site
-│ ├── scripts/ # arquivos JavaScript
-│ └── styles/ # estilos CSS
-└── index.html # página principal
+│ ├── imgs/ // imagens do site
+│ ├── scripts/ // arquivos JavaScript
+│ └── styles/ // estilos CSS
+└── index.html // página principal
 
 ---
 
 ## ⚙️ Como rodar o projeto localmente
 
-### 1. Clone o repositório
-git clone https://github.com/Evandro-bz-Junior/CampusTur.git
-2. Acesse a pasta
-Copiar código
-cd CampusTur
-3. Execute localmente
-Método simples: abra o arquivo index.html no navegador
+1. Clone o repositório:
+   git clone https://github.com/Evandro-bz-Junior/CampusTur.git
 
-Método recomendado: use um servidor local para melhor suporte (ex: Live Server)
+2. Acesse a pasta do projeto:
+   cd CampusTur
 
+3. Abra o site no navegador:
+   - Método rápido: clique duas vezes no arquivo `index.html`  
+   - Método recomendado: use a extensão **Live Server** no VSCode para servir o site localmente.
+     
+---
 
-📄 Licença
+## 📄 Licença
 Este projeto está sob a licença MIT.
 Sinta-se livre para usar, modificar e distribuir conforme os termos da licença.
 
