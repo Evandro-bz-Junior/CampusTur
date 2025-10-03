@@ -7,7 +7,9 @@ O CampusTur é um portal de turismo fictício que apresenta destinos turísticos
 
 ## Objetivos do Projeto
 Explorar e consolidar conhecimentos em HTML5, CSS3/SCSS, JavaScript e Bootstrap.
+
 Desenvolver um site responsivo e visualmente atraente.
+
 Praticar deploy de aplicações web utilizando a plataforma Vercel.
 
 ## 🧰 Tecnologias Utilizadas
